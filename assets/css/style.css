@@ -335,7 +335,6 @@ body{
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 /* tablet device */
 
@@ -355,7 +354,7 @@ body{
     }
     .player{
         width: 400px;
-        min-width: 400px;
+        min-width: 350px;
         flex-direction: column;
     }
     .play-control-container{
@@ -378,6 +377,9 @@ body{
         margin-left: 0;
         padding-bottom: 20px;
         background-color: #fff;
+    }
+    .icon-control {
+        margin: 20px;
     }
     .play-list-container{
         margin-left: 0;
