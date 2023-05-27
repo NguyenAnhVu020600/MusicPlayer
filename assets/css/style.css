@@ -14,6 +14,7 @@
     box-sizing: border-box;
 }
 html {
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 .hidden{
@@ -106,7 +107,7 @@ body{
 }
 
 .min-time,.max-time{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 100;
     
 }
@@ -122,7 +123,7 @@ body{
 }
 .name-song{
     width: 70%;
-    font-size: 21px;
+    font-size: 2.2rem;
     font-weight: 600;
     padding: 10px 0;
     font-family: 'Quicksand', sans-serif;
@@ -133,7 +134,7 @@ body{
     
 }
 .name-author{
-    font-size: 12px;
+    font-size: 1.2rem;
     opacity: 0.7;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
@@ -150,7 +151,7 @@ body{
     text-decoration: none;
     padding:10px 15px; 
     font-family: 'Quicksand Regular', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color:var(--text-color);
     text-transform: uppercase;
     line-height: 30px;
@@ -170,7 +171,7 @@ body{
 .icon-control {
     margin: 25px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 3rem;
     color:#000;
 }
 .icon-control:hover {
@@ -180,7 +181,7 @@ body{
     color: var(--btn-control-color);
 }
 .icon-control-play,.icon-control-pause{
-    font-size: 40px;
+    font-size: 4rem;
 }
 .volume-song{
     display: flex;
@@ -192,7 +193,7 @@ body{
 
 .icon-volume{
     width: 50px;
-    font-size: 25px;
+    font-size: 2.5rem;
     margin-right: 15px;
     cursor: pointer;
     
@@ -222,7 +223,7 @@ body{
 .play-list-title{
     color:var(--text-color);
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     height: 40px;
     font-weight: 600;
     line-height: 40px;
@@ -255,13 +256,14 @@ body{
     border-top: 1px solid #ddd;
     margin: 0 20px;
     line-height: 40px;
+    font-size: 1.5rem;
     
 }
 
 
 .lyric-song{
     text-align: start;
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 25px;
     padding: 10px 0;
     transition: all 0.3s ease;
@@ -302,7 +304,7 @@ body{
     flex-direction: column;
 }
 .name-detail{
-    font-size: 21px;
+    font-size: 2.2rem;
     margin: 2px 0;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
@@ -314,12 +316,12 @@ body{
 
 }
 .author-detail{
-    font-size: 12px;
+    font-size: 1.2px;
     opacity: 0.7;
     margin: 2px 0;
 }
 .time-song{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight:100;
 }
 
@@ -347,6 +349,9 @@ body{
 /* mobile device */
 
 @media (max-width:739px) {
+    html{
+        font-size: 45.5%;
+    }
     body{
         height: auto;
         padding:50px;
@@ -393,7 +398,7 @@ body{
         border-radius: 5px;
     }
     .name-detail{
-        max-width: 240px;
+        max-width: 200px;
     }
 }
 @media screen and (min-width: 740px) and (max-width: 940px){
